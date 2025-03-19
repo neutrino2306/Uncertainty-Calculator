@@ -1,0 +1,716 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="180dp"
+        android:layout_height="400dp"
+        android:background="#37531BD3">
+
+        <GridLayout
+            android:columnCount="1"
+            android:layout_width="180dp"
+            android:layout_height="400dp">
+
+            <TextView
+                android:id="@+id/data1"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="0"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data2"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="1"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data3"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="2"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data4"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="3"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data5"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="4"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data6"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="5"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data7"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="6"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data8"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="7"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data9"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="8"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data10"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="9"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data11"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="10"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data12"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="11"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data13"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="12"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data14"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="13"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data15"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="14"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data16"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="15"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data17"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="16"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data18"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="17"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data19"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="18"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data20"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="19"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data21"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="20"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data22"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="21"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data23"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="22"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data24"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="23"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data25"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="24"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data26"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="25"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data27"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="26"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data28"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="27"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data29"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="28"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data30"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="29"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data31"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="30"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data32"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="31"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data33"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="32"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data34"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="33"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data35"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="34"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data36"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="35"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data37"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="36"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data38"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="37"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data39"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="38"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data40"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="39"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data41"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="40"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data42"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="41"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data43"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="42"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data44"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="43"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data45"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="44"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data46"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="45"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data47"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="46"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data48"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="47"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data49"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="48"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/data50"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:layout_row="49"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inputTypeB"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="400dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inputTypeBNote"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/typeB"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="440dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:hint="@string/typeBHint"
+        android:inputType="numberSigned|numberDecimal"
+        android:maxLength="12" />
+
+    <Button
+        android:id="@+id/btn_exe"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@drawable/btn_delete_specific_selector"
+        android:text="@string/exe" />
+
+    <RelativeLayout
+        android:layout_width="270dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="180dp"
+        android:background="@color/green">
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/addData"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/add"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/bgc"
+            android:gravity="center"
+            android:hint="@string/addHint"
+            android:inputType="numberSigned|numberDecimal"
+            android:maxLength="12" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="90dp"
+            android:backgroundTint="@drawable/btn_delete_specific_selector"
+            android:text="@string/addBtn" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="270dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/TintedBlue">
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/editData"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/edit_num"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/bgc"
+            android:gravity="center"
+            android:hint="@string/editHint2"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <Button
+            android:id="@+id/btn_change"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="@drawable/btn_delete_specific_selector"
+            android:text="@string/edit" />
+
+        <EditText
+            android:id="@+id/edit_data"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="90dp"
+            android:background="@color/bgc"
+            android:gravity="center"
+            android:hint="@string/editHint1"
+            android:inputType="numberSigned|numberDecimal"
+            android:maxLength="12" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="@drawable/btn_delete_specific_selector"
+            android:text="@string/reset" />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="240dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="360dp">
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/deleteData"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/del_num"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/bgc"
+            android:gravity="center"
+            android:hint="@string/editHint2"
+            android:inputType="number"
+            android:maxLength="2" />
+
+        <Button
+            android:id="@+id/btn_delete_recent"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="140dp"
+            android:backgroundTint="@drawable/btn_delete_specific_selector"
+            android:text="@string/deleteRecentData" />
+
+        <Button
+            android:id="@+id/btn_delete_specific"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="85dp"
+            android:backgroundTint="@drawable/btn_delete_specific_selector"
+            android:text="@string/deleteSpecificData" />
+
+        <Button
+            android:id="@+id/btn_delete_all"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="195dp"
+            android:backgroundTint="@drawable/btn_delete_all_selector"
+            android:text="@string/deleteAll"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="190dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="540dp"
+        app:srcCompat="@drawable/equation" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="610dp"
+        app:srcCompat="@drawable/ua" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="650dp"
+        app:srcCompat="@drawable/uc" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="650dp"
+        android:text="="
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="610dp"
+        android:text="="
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/uaDisp"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="610dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ucDisp"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="650dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/textView"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="700dp"
+        android:textSize="30sp"
+        app:srcCompat="@drawable/res" />
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="700dp"
+        android:text="="
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/avgDisp"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="700dp"
+        android:background="@color/bgc"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

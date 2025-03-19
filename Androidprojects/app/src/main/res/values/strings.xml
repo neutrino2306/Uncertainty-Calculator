@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">不确定度计算器</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="addData">添加数据</string>
+    <string name="addHint">请添加数据</string>
+    <string name="addBtn">添加</string>
+    <string name="edit">更改</string>
+    <string name="editData">编辑数据</string>
+    <string name="editHint1">请编辑数据</string>
+    <string name="editHint2">请输入编号</string>
+    <string name="deleteData">删除数据</string>
+    <string name="reset">重置</string>
+    <string name="find">查找</string>
+    <string name="add">请输入数据</string>
+    <string name="deleteRecentData">删除最近数据</string>
+    <string name="deleteSpecificData">删除指定数据</string>
+    <string name="deleteAll">连点三次清除全部数据</string>
+    <string name="inputTypeB">输入B类不确定度:</string>
+    <string name="inputTypeBNote">(一般为仪表误差)</string>
+    <string name="exe">执行</string>
+    <string name="typeBHint">请输入B类不确定度</string>
+    <string name="resdisp">结果:x±Δx=</string>
+
+</resources>
