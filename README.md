@@ -1,27 +1,32 @@
 ﻿# 🧮 Uncertainty Calculator
 
-## 📌 Project Overview  
 Uncertainty Calculator is a mobile application designed for **physics experiments** to compute **measurement uncertainties**.  
-It supports **Type A uncertainty**, **Type B uncertainty**, and their **combined uncertainty** using standard propagation formulas.  
-Users can input, edit, and delete measurement data while the app automatically computes the total uncertainty \( u_c \).
+It supports **Type A uncertainty, Type B uncertainty, and their combined uncertainty**, following standard propagation formulas.  
+Users can input measurement data, specify Type B uncertainty, and the app will automatically compute **Type A uncertainty, Combined uncertainty, and the Mean value**.
 
 ## 🚀 Features  
 - **📥 Data Input**
-  - Enter multiple measurement values (Type A uncertainty).
-  - Input Type B uncertainty (typically instrument error).
+  - Enter multiple measurement values (used for Type A uncertainty calculation).
+  - Input **Type B uncertainty** (typically instrument error).
 - **🔢 Data Management**
   - Modify existing data entries.
   - Delete specific data points or the most recent entry.
   - **Triple-click to clear all data.**
 - **📊 Uncertainty Calculation**
-  - Computes **combined uncertainty** using:
-    \[
-    u_c(x) = \sqrt{u_A^2 + u_B^2}
-    \]
+  - Computes **Type A uncertainty** $u_A$ based on statistical analysis of input data.
+  - Uses the formula:
+    $$
+    u_A = \frac{s}{\sqrt{n}}
+    $$
+    where $s$ is the standard deviation of the measurements and $n$ is the number of samples.
+  - Computes **Combined Uncertainty** $u_c$ using:
+    $$
+    u_c = \sqrt{u_A^2 + u_B^2}
+    $$
   - Displays key computed values:
-    - \( u_A \) (Type A uncertainty)
-    - \( u_c \) (Combined uncertainty)
-    - \( \bar{x} \) (Mean value)
+    - $u_A$ (Type A uncertainty)
+    - $u_c$ (Combined uncertainty)
+    - $\bar{x}$ (Mean value)
 - **🎨 User-Friendly Interface**
   - Intuitive UI for easy data entry and modifications.
   - Distinct buttons for adding, editing, and clearing data.
