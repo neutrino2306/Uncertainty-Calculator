@@ -14,15 +14,11 @@ Users can input measurement data, specify Type B uncertainty, and the app will a
   - **Triple-click to clear all data.**
 - **📊 Uncertainty Calculation**
   - Computes **Type A uncertainty** $u_A$ based on statistical analysis of input data.
-  - Uses the formula:
-    $$
-    u_A = \frac{s}{\sqrt{n}}
-    $$
+  - Uses the formula:  
+    $u_A = \frac{s}{\sqrt{n}}$  
     where $s$ is the standard deviation of the measurements and $n$ is the number of samples.
-  - Computes **Combined Uncertainty** $u_c$ using:
-    $$
-    u_c = \sqrt{u_A^2 + u_B^2}
-    $$
+  - Computes **Combined Uncertainty** $u_c$ using:  
+    $u_c = \sqrt{u_A^2 + u_B^2}$  
   - Displays key computed values:
     - $u_A$ (Type A uncertainty)
     - $u_c$ (Combined uncertainty)
