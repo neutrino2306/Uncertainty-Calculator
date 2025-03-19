@@ -44,6 +44,12 @@ Users can input measurement data, specify Type B uncertainty, and the app will a
 git clone git@github.com:neutrino2306/Uncertainty-Calculator.git
 cd Uncertainty-Calculator
 ```
+### 2️⃣ Run the Application  
+_(Modify based on how your app runs)_
+
+#### If using Android Studio:
+1. Open the project in **Android Studio**.
+2. Build and run the application on an emulator or physical device.
 
 ## 📮 Contact  
 Created by [neutrino2306](https://github.com/neutrino2306) – Feel free to reach out! 🚀
